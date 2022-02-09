@@ -35,7 +35,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://blooming-temple-61669.herokuapp.com/' + api_token)
+    bot.set_webhook(url='https://murmuring-lowlands-09584.herokuapp.com/' + api_token)
     return "!", 200
 
 
