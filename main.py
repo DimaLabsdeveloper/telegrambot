@@ -6,7 +6,7 @@ from aiogram.utils import executor
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from flask import Flask,request
 import os
-api_token = '1125827816:AAHDSArWiPoqPV05M4RAUoqstj2BN-ZYLkk'
+api_token = '***'
 bot = Bot(token=api_token)
 dp = Dispatcher(bot)
 server = Flask(__name__)
